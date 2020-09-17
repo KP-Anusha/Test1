@@ -8,7 +8,7 @@ void fact() {
 
   
     if (n < 0)
-        printf("Error! Factorial of a negative number doesn't exist.");
+        printf("Error! Factorial of a negative number does not exist.");
     else {
         for (i = 1; i <= n; ++i) {
             fact *= i;
